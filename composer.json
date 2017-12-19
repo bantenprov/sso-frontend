@@ -1,0 +1,18 @@
+{
+  "description": "Halaman depan Banten Satu Login (SSO)",
+  "name": "bantenprov/sso-frontend",
+  "type": "library",
+  "homepage": "https://github.com/bantenprov/sso-frontend",
+  "authors": [
+    {
+      "name": "bantenprov",
+      "email": "developer.bantenprov@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/bantenprov/sso-frontend"
+  },
+    "minimum-stability": "stable"
+}
