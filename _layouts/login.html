@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="id">
+  <head>
+    {% include header.html %}
+  </head>
+  <body class="page-login layout-full page-dark">
+
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="page animsition vertical-align text-center" data-animsition-in="fade-in" data-animsition-out="fade-out">>
+  		<div class="page-content vertical-align-middle">
+  			<div class="brand">
+  				<a href="/"><img class="brand-img" src="{{ site.baseurl }}/assets/images/logo.png" alt="Banten Satu Login" width="72" height="72"></a>
+  				<h2 class="brand-text">Banten Satu Login</h2>
+  			</div>
+  			<p>Satu identitas untuk mengakses aplikasi Pemerintah Provinsi Banten.</p>
+
+        {{ content }}
+
+  			<footer class="page-copyright page-copyright-inverse">
+  				<p>Website Pemerintah Provinsi Banten.</p>
+  				<p>© 2017</p>
+  			</footer>
+  		</div>
+  	</div>
+  	<!-- End Page -->
+
+    {% include scripts.html %}
+  </body>
+</html>

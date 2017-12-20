@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+  {% if page.title %}
+    {{ page.title }} &middot; {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+</title>
+
+{% include social.html %}
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/css/bootstrap-extend.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/customer.css">
+<!-- Plugins -->
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/animsition/animsition.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/asscrollable/asScrollable.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/switchery/switchery.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/intro-js/introjs.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/slidepanel/slidePanel.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/flag-icon-css/flag-icon.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/vendor/waves/waves.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/theme/css/dashboard/v1.css">
+<!-- Fonts -->
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/fonts/web-icons/web-icons.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/fonts/material-design/material-design.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/fonts/brand-icons/brand-icons.min.css">
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
+<!--[if lt IE 9]>
+  <script src="dist/vendor/html5shiv/html5shiv.min.js"></script>
+  <![endif]-->
+<!--[if lt IE 10]>
+  <script src="dist/vendor/media-match/media.match.min.js"></script>
+  <script src="dist/vendor/respond/respond.min.js"></script>
+  <![endif]-->
+<!-- Scripts -->
+<script src="{{ site.baseurl }}/dist/vendor/modernizr/modernizr.js"></script>
+<script src="{{ site.baseurl }}/dist/vendor/breakpoints/breakpoints.js"></script>
+<script>
+Breakpoints();
+</script>

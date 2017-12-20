@@ -1,0 +1,62 @@
+{
+  "name": "sso-frontend",
+  "title": "Bantenprov SSO",
+  "description": "Satu identitas untuk mengakses aplikasi Pemerintah Provinsi Banten.",
+  "version": "1.0.0",
+  "homepage": "http://sso.bantenprov.go.id",
+  "private": true,
+  "keywords": [
+    "bantenprov",
+    "sso"
+  ],
+  "author": {
+    "name": "Provinsi Banten",
+    "url": "http://bantenprov.go.id"
+  },
+  "bugs": {
+    "url": "https://github.com/bantenprov/sso-frontend/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bantenprov/sso-frontend/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "glob": "*",
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-bootlint": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-csscomb": "*",
+    "grunt-exec": "*",
+    "grunt-hb": "*",
+    "grunt-notify": "*",
+    "grunt-prettify": "*",
+    "load-grunt-config": "*",
+    "load-grunt-tasks": "*"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  },
+  "files": [
+    "dist/js/**/*.js",
+    "dist/css/**/*.css",
+    "dist/vendor/**/*",
+    "dist/fonts/**/*",
+    "src/js/**/*.js",
+    "src/less/**/*.less",
+    "src/vendor/**/*.less",
+    "src/fonts/**/*.less",
+    "src/skins/**/*.less"
+  ]
+}
