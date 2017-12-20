@@ -1,0 +1,43 @@
+# Dependencies
+markdown:           kramdown
+highlighter:        rouge
+
+kramdown:
+  auto_ids:         true
+
+# Permalinks
+permalink:          pretty
+
+# Server
+source:             "."
+destination:        ./_site
+port:               9005
+baseurl:            ""
+url:                "http://sso.dev.bantenprov.go.id"
+encoding:           UTF-8
+
+exclude:
+  - .git/
+  - .github/
+  - src/
+  - grunt/
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - package-lock.json.remark
+  - components.json
+  - composer.json
+  - config.json
+  - color.yml
+  - README.md
+
+plugins:
+  - jekyll-sitemap
+
+# Social
+title:              Banten Satu Login
+description:        "Satu identitas untuk mengakses aplikasi Pemerintah Provinsi Banten."
+authors:            "Provinsi Banten"
+social_logo_path:   /assets/images/social-logo.jpg

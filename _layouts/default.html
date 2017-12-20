@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="id">
+  <head>
+    {% include header.html %}
+  </head>
+  <body class="dashboard">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% include navbar.html %}
+    {% include menubar.html %}
+
+    <div class="page animsition" id="content">
+      <div class="page-content container-fluid">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
