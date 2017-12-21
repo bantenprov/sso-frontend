@@ -38,11 +38,16 @@
 <script src="{{ site.baseurl }}/assets/theme/js/dashboard/v1.min.js"></script>
 
 <script>
-  (function (document, window, $) {
-    'use strict';
-    var Site = window.Site;
-    $(document).ready(function () {
-      Site.run();
-    });
-  })(document, window, jQuery);
+$(function() {
+  var pathname = window.location.pathname;
+  $('.site-menu a[href="'+pathname+'"]').parents('.site-menu-item').addClass('active');
+});
+
+(function (document, window, $) {
+  'use strict';
+  var Site = window.Site;
+  $(document).ready(function () {
+    Site.run();
+  });
+})(document, window, jQuery);
 </script>
